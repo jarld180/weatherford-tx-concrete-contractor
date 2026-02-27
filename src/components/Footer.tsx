@@ -40,14 +40,15 @@ const Footer: React.FC = () => {
               <li><a href="/#contact" className="text-black hover:text-black transition-colors font-medium">Contact</a></li>
             </ul>
           </div>
-          <div>
+                    <div>
             <h4 className="font-bold text-lg mb-8 uppercase tracking-widest text-black">Service Areas</h4>
             <ul className="space-y-4">
-              <li><span className="text-black font-medium">Fort Worth, TX</span></li>
-              <li><span className="text-black font-medium">Keller, TX</span></li>
-              <li><span className="text-black font-medium">North Richland Hills, TX</span></li>
-              <li><span className="text-black font-medium">Haltom City, TX</span></li>
-              <li><span className="text-black font-medium">Weatherford, TX</span></li>
+              <li><Link to="/fort-worth" className="text-black hover:text-black transition-colors font-medium">Fort Worth, TX</Link></li>
+              <li><Link to="/keller" className="text-black hover:text-black transition-colors font-medium">Keller, TX</Link></li>
+              <li><Link to="/north-richland-hills" className="text-black hover:text-black transition-colors font-medium">North Richland Hills, TX</Link></li>
+              <li><Link to="/haltom-city" className="text-black hover:text-black transition-colors font-medium">Haltom City, TX</Link></li>
+              <li><Link to="/" className="text-black hover:text-black transition-colors font-medium">Weatherford, TX</Link></li>
+              <li><Link to="/southlake" className="text-black hover:text-black transition-colors font-medium">Southlake, TX</Link></li>
             </ul>
           </div>
         </div>
